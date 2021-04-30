@@ -1,0 +1,7 @@
+{
+  "frontend.css": "/build/css/frontend.css",
+  "frontend.js": "/build/js/frontend.js",
+  "vendor-frontend.js": "/build/js/vendor-frontend.js",
+  "images/vendor-frontend/intl-tel-input/build/app.scss": "/build/images/vendor-frontend/intl-tel-input/build/flags@2x.png?d429a5777afaf2fc349652e812e9bb11",
+  "images/vendor-frontend/slick-carousel/slick/app.scss": "/build/images/vendor-frontend/slick-carousel/slick/ajax-loader.gif?c5cd7f5300576ab4c88202b42f6ded62"
+}
