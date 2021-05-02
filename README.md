@@ -221,14 +221,6 @@ Both frontend and backend have dedicated login pages.
 > N3 : Use `yarn watch` if you prefer old school watcher,  
 > N4 : If assets modified, don't forget to launch `yarn prod` before deploy on production environment.
 
-### Permissions definitions
-
-Unlike other known project as [ENTRUST](https://github.com/Zizaco/entrust) or [laravel-permission](https://github.com/spatie/laravel-permission), which are very well suited for generic roles/permissions, i preferred a more lite and integrated custom solution.
-
-The mainly difference is that instead of store all permissions into specific SQL table, there are directly defined in a specific config file permissions. SQL side, roles entities relies only to a list of permissions key names.
-
-Indeed i feel this approach better for maintainability simply because permissions are hardly tied to the application with Laravel Authorization. This is anyway the standard way in CMS as Drupal where each module have specific config permission file. Permissions should be only owned by developers.
-
 ### Note on Laravel Mix
 
 You will observe that this boilerplate does not use [Laravel Mix](https://github.com/JeffreyWay/laravel-mix) which is shipped in Laravel for all assets management.
